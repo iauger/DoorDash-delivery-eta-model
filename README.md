@@ -43,6 +43,7 @@ This dataset is a simplified version of the telemetry used in real ETA systems a
 
 ## Project Architecture
 
+```
 Project/
 ├── data/
 │   ├── raw/
@@ -68,6 +69,7 @@ Project/
 │   └── stacking_weights.csv
 │
 └── reference_documents/
+```
 
 ---
 
