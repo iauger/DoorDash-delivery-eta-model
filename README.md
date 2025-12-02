@@ -44,32 +44,30 @@ This dataset is a simplified version of the telemetry used in real ETA systems a
 ## Project Architecture
 
 Project/
-│
 ├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── final/
+│   ├── raw/
+│   ├── processed/
+│   └── final/
 │
 ├── notebooks/
-│ ├── 01_data_clean_and_eda.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ └── 03_modeling.ipynb
+│   ├── 01_data_clean_and_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_modeling.ipynb
 │
 ├── src/
-│ ├── preprocessing.py
-│ ├── feature_engineering.py
-│ └── modeling.py
-│ 
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   └── modeling.py
 │
 ├── models/
-│ ├── baseline_fold_.txt
-│ ├── sh_fold_.txt
-│ ├── mh_fold_.txt
-│ ├── lh_fold_.txt
-│ ├── final_stacking_model.pkl
-│ └── stacking_weights.csv
+│   ├── baseline_fold_.txt
+│   ├── sh_fold_.txt
+│   ├── mh_fold_.txt
+│   ├── lh_fold_.txt
+│   ├── final_stacking_model.pkl
+│   └── stacking_weights.csv
 │
-└── reference documents/
+└── reference_documents/
 
 ---
 
