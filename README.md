@@ -8,6 +8,21 @@ The structure is inspired by concepts described in DoorDash’s research on ETA 
 
 ---
 
+## Project Report & Code Structure
+
+The full project report is contained within the `notebooks/` directory.  
+These notebooks should be reviewed in the following order:
+
+1. **01_data_clean_and_eda.ipynb** — Data exploration, cleaning, outlier handling, and initial insights.  
+2. **02_feature_engineering.ipynb** — Feature creation, encoding strategies, and preparation of the inputs for modeling.  
+3. **03_modeling.ipynb** — Training the baseline and horizon models, building the stacking model, and evaluating performance.
+
+The report is divided into three focused notebooks to improve readability and maintain a clear separation of concerns, rather than placing all work into a single long file. All supporting functions used throughout the notebooks are located in the `src/` directory.
+
+Reference materials that informed the modeling approach, including DoorDash’s ETA research paper and course materials, are included in the `reference_documents/` directory.
+
+---
+
 ## Project Overview
 
 Accurate delivery-time prediction is critical for user experience and operational efficiency. Delivery systems fluctuate based on prep-time variability, driver availability, market load, and traffic patterns. Because these factors influence different deliveries in different ways, a single model often cannot capture the full complexity of the system.
